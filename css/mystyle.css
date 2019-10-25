@@ -91,8 +91,47 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
     margin: 40px;
 }
 
+.Headline
+{
+    display: flex;
+    justify-content: center;
+
+}
+h1
+{
+    margin-top: 70px;
+    font-size: 50px;
+}
 
 
+
+
+
+
+
+.Horizontal_navbar
+{
+    height: 150px;
+    width: 100%;
+    background-color: #216311;
+    justify-content: space-around;
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+.navigation_element
+{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.link
+{
+    text-decoration: none;
+}
 @media only screen and (min-width:470px)
 
 {
