@@ -16,11 +16,181 @@ body {
     overflow-x: hidden;
 }
 
-.container {
+.logo_sidebar {
+    height: 150px;
+    margin: 40px;
+}
+
+.logo_horizontalnav {
+    height: 100px;
+}
+
+
+
+.Horizontal_navbar {
+    height: 90px;
+    width: 100%;
+    background-color: #213315;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    opacity: .9;
+    top: 0;
+
+}
+
+.navigation_element {
+    color: white;
+    font-size: 18px;
+    margin: 15px;
+    font-family: Arial;
+
+}
+
+h1 {
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+.headline_a_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.headline_a {
+    font-size: 40px;
+
+
+}
+
+.headline_b {
+    font-size: 40px;
+    margin: 40px 0 40px 0;
+    font-family: sylfaen;
+    border-bottom: 1px solid black;
+}
+
+.headline_c {
+    font-size: 20px;
+    padding: 50px 0 30px 0;
+    font-family: sylfaen;
+    font-style: italic;
+}
+
+.paragraph_end {
+    margin-bottom: 30px;
+}
+
+.Magazine_text {
+    font-size: 18px;
+    font-family: Sylfaen;
+    line-height: 1.4;
+
+}
+
+.Line {
+    margin: 5px 15px 20px 0;
+    height: 2px;
+    background-color: #212121;
+    border: none;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.sidebar_container {
     display: flex;
     min-height: 100%;
     position: fixed;
     top: 0;
+}
+
+.dropwn {
+    overflow: hidden;
+}
+
+
+.dropdown-content: hover {
+    float: none;
+    display: block;
+    background-color: white;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+
+
+.navigation_element:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropbtn {
+    background-color: #213315;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #548235;
+    font-size: 10px;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 0;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #385723;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #548235;
+    border-bottom: #213315 solid 1px;
+    border-bottom: 4px solid white;
+
 }
 
 input[data-function*='swipe'] {
@@ -83,9 +253,14 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
     left: 0;
     height: 100%;
     transition: all 0.3s;
+    text-align: center;
+    display: flex;
 
 }
 
+.under_line {
+    border-bottom: 4px solid white;
+}
 
 .menu li {
     padding: 10px;
@@ -96,7 +271,6 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
 
 .menu li a {
     color: #fff;
-    text-align: center;
     font-size: 18px;
     font-weight: 900;
     display: block;
@@ -105,146 +279,61 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
     margin: 0 20px;
 }
 
-.logo_sidebar {
-    height: 150px;
-    margin: 40px;
-}
 
-.logo_horizontalnav {
-    height: 100px;
-}
-
-h1 {
-    margin-top: 70px;
-    font-size: 50px;
-}
-
-
-
-
-
-
-
-.Horizontal_navbar {
-    height: 90px;
-    width: 100%;
-    background-color: #213315;
-    justify-content: flex-end;
-    display: flex;
-    align-items: flex-end;
-    position: fixed;
-    opacity: .9;
-    top: 0;
+.logo_position_forhorizontal {
+    left: 50px;
+    top: -11px;
+    position: absolute;
 
 }
 
-.navigation_element {
-    color: white;
-    font-size: 18px;
-    margin: 15px;
-    font-family: Arial;
-
-}
-
-.paragraph_end {
-    margin-bottom: 30px;
-}
-
-.headline_a_div {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    width: 100%;
-}
-
-.headline_a {
-    font-size: 40px;
-}
-
-.headline_b {
-    font-size: 40px;
-    margin: 40px 0 40px 0;
-    font-family: sylfaen;
-    border-bottom: 1px solid black;
-}
-
-.headline_c {
-    font-size: 20px;
-    padding: 50px 0 30px 0;
-    font-family: sylfaen;
-    font-style: italic;
+.all_navigations {
+    margin-right: 50px;
 }
 
 
 
-.Magazine_text {
-    font-size: 18px;
-    font-family: Sylfaen;
-    line-height: 1.4;
+.main_area {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menupoint_text {
+    font-size: 15px;
+}
+
+.breadcrumb {
+    float: right;
+    margin-right: 65px;
+    font-size: 15px;
+    color: black;
+    margin-top: 30px;
 
 }
 
-.Line {
-    margin: 5px 15px 20px 0;
-    height: 2px;
-    background-color: #212121;
-    border: none;
-
-}
-
-.link {
+.breadcrumb_link {
     text-decoration: none;
-}
-
-
-
-.dropwn {
-    overflow: hidden;
-}
-
-.dropdown_conent {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    width: 5%;
+    color: #213315;
 
 }
-
-.dropdown-content: hover {
-    float: none;
-    display: block;
-    background-color: white;
-
-}
-
-.dropdown_conent {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    width: 8%;
-}
-
-.dropdown-content: hover {
-    float: none;
-    display: block;
-    background-color: white;
-}
-
-
-
 
 
 
 /*For Desktop*/
 @media only screen and (min-width:680px) {
-    .container {
+    .sidebar_container {
         display: none;
+    }
+
+    .logo_sidebar {
+        height: 150px;
+        margin: 40px;
     }
 
     .Line {
         margin-bottom: 80px;
         width: 100%;
-        height: 6px;
+        height: 2px;
         border: none;
         margin-left: 0;
 
@@ -256,6 +345,8 @@ h1 {
 
     .headline_a_div {
         margin-top: 150px;
+        justify-content: flex-start;
+        margin-left: 70px;
 
     }
 
@@ -269,97 +360,6 @@ h1 {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: blue;
-    min-width: 160px;
-    width: 170px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-
-}
-
-
-.navigation_element:hover .dropdown-content {
-    display: block;
-
-}
-
-.dropbtn {
-    background-color: #213315;
-    color: white;
-    padding: 16px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #548235;
-    font-size: 10px;
-    min-width: 170px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    padding: 0;
-
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-
-}
-
-.dropdown-content a:hover {
-    background-color: #385723;
-
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #548235;
-    border-bottom: #213315 solid 1px;
-
-
-}
-
-.logo_position_forhorizontal {
-    left: 50px;
-    top: -11px;
-    position: absolute;
-
-}
-
-.all_navigations {
-    margin-right: 50px;
-}
-
 /*For mobile*/
 @media only screen and (max-width:680px) {
     .Horizontal_navbar {
@@ -367,64 +367,3 @@ h1 {
     }
 
 }
-
-.main_area {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.menupoint_text {
-    font-size: 15px
-}
-
-.breadcrumb {
-    float: right;
-    margin-right: 65px;
-    font-size: 20px;
-    color: black;
-    margin-top: 30px;
-
-}
-
-
-.breadcrumb_link {
-    text-decoration: none;
-    color: #213315;
-
-}
-
-.breadcrumb_link:hover;
-
-    {
-    text-decoration: underline;
-}
-
-
-
-
-
-
-
-/*@media only screen and (max-width:680px) {
-    .Horizontal_navbar {
-        display: none;
-    }
-
-
-    .main_area {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .main_area {
-        width: 90%;
-    }
-
-    .headline_div {
-        display: flex;
-        justify-content: center;
-        margin-top: 100px;
-
-    }
-
-}*/

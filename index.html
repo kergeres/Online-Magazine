@@ -17,24 +17,21 @@
 
 <body>
     <header>
-        <div class="container">
-
+        <div class="sidebar_container">
+            <!-- for hamburgermenu icon -->
             <input data-function="swipe" id="swipe" type="checkbox">
             <label data-function="swipe" for="swipe">&#xf057;</label>
             <label data-function="swipe" for="swipe">&#xf0c9;</label>
-
-
-
             <div class="sidebar">
                 <nav class="menu">
-                    <div class="dropdown">
+                    <!-- every navigation point on the sidebar/hamburgermenu -->
+                    <!-- the "under_line" is for the user to know which subpage is she/he on -->
+                    <div class="dropdown under_line">
                         <li><a href="#">Home</a></li>
                         <div class="dropdown-content">
 
                         </div>
                     </div>
-
-
                     <div class="dropdown">
                         <li><a href="#">How to prepare</a></li>
                         <div class="dropdown-content">
@@ -61,21 +58,25 @@
                             <a href="#" class="menupoint_text">FAQ</a>
                         </div>
                     </div>
+                    <!-- top-left logo-->
                     <a href="index.html"><img src="Img/snake_light.png" class="logo_sidebar" alt="Snake keepers logo"></a>
                 </nav>
             </div>
 
         </div>
         <nav>
+            <!-- Only for desktop using -->
             <section class="Horizontal_navbar">
                 <div class="logo_position_forhorizontal">
                     <a href="index.html"><img src="Img/snake_light.png" class="logo_horizontalnav" alt="Snake keepers logo"></a>
                 </div>
-
+                <!-- "all_navigations" contains every navigation-point. gives margins -->
                 <div class="all_navigations">
                     <div class="dropdown">
-                        <a href="index.html"><button class="dropbtn">Home</button></a>
+
+                        <a href="index.html"><button class="dropbtn under_line">Home</button></a>
                     </div>
+
                     <div class="dropdown">
                         <button class="dropbtn">How to Prepare</button>
                         <div class="dropdown-content">
@@ -103,34 +104,22 @@
                             <a href="#" class="menupoint_text">FAQ</a>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
 
             </section>
 
+            <!-- Breadcrumb for further orientation -->
             <span class="breadcrumb">
                 <a href="index.html" class="breadcrumb_link">Home</a>&gt;Clothing
-
             </span>
-
 
         </nav>
     </header>
 
-
-
     <main>
-
         <section class="headline_a_div">
             <h1 class="headline_a">Introduction</h1>
         </section>
-
-
-
         <section class="main_area">
             <hr class="Line">
 
