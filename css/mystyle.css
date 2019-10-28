@@ -69,7 +69,7 @@ h1 {
 
 .headline_b {
     font-size: 40px;
-    margin: 40px 0 40px 0;
+    margin: 40px 0 20px 0;
     font-family: sylfaen;
     border-bottom: 1px solid black;
 }
@@ -78,7 +78,16 @@ h1 {
     font-size: 20px;
     padding: 50px 0 30px 0;
     font-family: sylfaen;
-    font-style: italic;
+}
+.headline_d {
+    font-size: 16px;
+    padding: 1px 4px 1px 2px;
+    font-family: sylfaen;
+    background-color: #548235;
+    color: #C7DEC3;
+    margin-top: 30px;
+
+
 }
 
 .paragraph_end {
@@ -90,6 +99,21 @@ h1 {
     font-family: Sylfaen;
     line-height: 1.4;
 
+}
+.small_magazine_text {
+    font-size: 16px;
+    font-family: Sylfaen;
+    line-height: 1.2;
+    display: flex;
+    text-align: justify;
+
+
+
+}
+
+.top_margin
+{
+    margin-top: 70px;
 }
 
 .Line {
@@ -316,8 +340,24 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
     color: #213315;
 
 }
+.horizontal_footer
+{
+    height: 150px;
+    width: 100%;
+    background-color: #213315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
 
-
+.socialmedia
+{
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: auto 20px auto 20px;
+}
 
 /*For Desktop*/
 @media only screen and (min-width:680px) {
@@ -358,6 +398,21 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
         padding-top: 70px;
 
     }
+
+    .horizontal_footer
+{
+    height: 150px;
+    width: 100%;
+    background-color: #213315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .top_margin
+{
+    margin-top: 150px;
+}
 }
 
 /*For mobile*/

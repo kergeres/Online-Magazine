@@ -1,0 +1,63 @@
+.prices_container {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.contact_container {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.prices_table {
+
+    padding: 5px;
+    width: 50px;
+}
+
+.contact_container {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.contact_table {
+    border: 1px solid black;
+    padding: 5px;
+    width: 50px;
+}
+
+.appointment_container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    clear: both;
+    float: left;
+}
+
+.appointment {}
+
+/*For Desktop*/
+@media only screen and (min-width:680px) {
+    .prices_container {
+        width: 100%;
+        height: 130px;
+        margin-top: 100px;
+
+    }
+
+}
+
+/*For mobile*/
+@media only screen and (max-width:680px) {}

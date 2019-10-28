@@ -1,0 +1,80 @@
+.terrariums
+{
+    width: 80%;
+
+
+}
+.terrarium_content
+{
+
+    display: flex;
+    justify-content: flex-end;
+
+
+
+
+}
+
+/*For Desktop*/
+@media only screen and (min-width:680px) {
+    .sidebar_container {
+        display: none;
+    }
+
+    .logo_sidebar {
+        height: 150px;
+        margin: 40px;
+    }
+
+    .Line {
+        margin-bottom: 80px;
+        width: 100%;
+        height: 2px;
+        border: none;
+        margin-left: 0;
+
+    }
+
+    .main_area {
+        padding-right: 22%;
+    }
+
+    .headline_a_div {
+        margin-top: 150px;
+        justify-content: flex-start;
+        margin-left: 70px;
+
+    }
+
+    .headline_a {
+        font-size: 70px;
+    }
+
+    .breadcrumb {
+        padding-top: 70px;
+
+    }
+
+    .horizontal_footer
+{
+    height: 150px;
+    width: 100%;
+    background-color: #213315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .top_margin
+{
+    margin-top: 150px;
+}
+}
+
+/*For mobile*/
+@media only screen and (max-width:680px) {
+    .Horizontal_navbar {
+        display: none;
+    }
+
+}
