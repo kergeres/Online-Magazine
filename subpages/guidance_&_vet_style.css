@@ -36,23 +36,6 @@
     font-family: sylfaen;
 }
 
-.contact_table {
-
-    padding: 5px;
-    width: 50px;
-
-
-}
-
-.contact_table_left {
-    margin-right: 20px;
-    display: flex;
-    justify-content: flex-end;
-    padding: 5px;
-    width: 100px;
-    font-weight: bold;
-
-}
 
 .appointment_container {
     display: flex;
@@ -112,6 +95,7 @@
 
 .wrapper_container {
     margin: 0 auto 0 auto;
+    width: 95%;
 
 }
 
@@ -133,6 +117,11 @@
         margin-bottom: 150px;
 
     }
+    .wrapper_container {
+    margin: 100px auto 0 auto;
+    width: 80%;
+
+}
 
 }
 
