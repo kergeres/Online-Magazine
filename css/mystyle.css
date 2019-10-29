@@ -69,7 +69,7 @@ h1 {
 
 .headline_b {
     font-size: 40px;
-    margin: 40px 0 20px 0;
+    margin: 70px 0 20px 0;
     font-family: sylfaen;
     border-bottom: 1px solid black;
 }
@@ -356,18 +356,19 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
 }
 
 .breadcrumb {
+
     float: right;
     margin-right: 65px;
     font-size: 15px;
     color: black;
-    margin-top: 30px;
+    margin-top: 10px;
 
 
 }
 
 .breadcrumb_link {
     text-decoration: none;
-    color: #213315;
+    color: black;
 
 }
 .horizontal_footer
@@ -419,14 +420,21 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
         margin-left: 70px;
 
     }
+    .headline_b {
+    margin-top: 150px;
+}
 
     .headline_a {
         font-size: 70px;
     }
 
     .breadcrumb {
-        padding-top: 70px;
-
+      position: fixed;
+        right: 60px;
+        top: 105px;
+        z-index: -1;
+        float: none;
+        margin: 0;
     }
 
     .horizontal_footer
