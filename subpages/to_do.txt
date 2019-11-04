@@ -1,0 +1,8 @@
+nem lehet megnyitni a fajlt csak a bracketbol
+hogy lehet  # elni 
+
+
+feedback:
+contact nemjo
+homenel nemkell a breadcrumb
+sub_css-ek hova mennek?

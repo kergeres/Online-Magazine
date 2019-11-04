@@ -95,6 +95,10 @@ h1 {
     border: 1px solid black;
     color: black;
     }
+.headline_fanfar:hover
+{
+    color: white;
+}
 .fanfar_container
 {
     margin-top: 50px;
@@ -106,7 +110,7 @@ h1 {
     font-family: sylfaen;
     color: black;
     }
-}
+
 
 }
 
@@ -142,6 +146,7 @@ h1 {
 {
     margin-bottom: 20px;
 }
+
 .paragraph_end {
     margin-bottom: 30px;
 }
@@ -151,7 +156,16 @@ h1 {
     font-family: Sylfaen;
     line-height: 1.4;
 
+
 }
+.middle_magazine_text {
+    font-size: 18px;
+    font-family: Sylfaen;
+    line-height: 1.4;
+    margin-top: 50px;
+
+}
+
 .small_magazine_text {
     font-size: 16px;
     font-family: Sylfaen;
@@ -165,7 +179,7 @@ h1 {
 
 .top_margin
 {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .Line {
@@ -419,6 +433,11 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
         display: none;
     }
 
+    .middle_magazine_text {
+
+    margin-top: 0;
+
+}
     .logo_sidebar {
         height: 150px;
         margin: 40px;
@@ -474,6 +493,8 @@ input[data-function*='swipe']:checked ~ .sidebar .menu li {
 {
     margin-top: 150px;
 }
+
+
 }
 
 /*For mobile*/

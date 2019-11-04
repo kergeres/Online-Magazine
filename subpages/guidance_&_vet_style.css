@@ -62,10 +62,14 @@
 
 .options {
     background-color: #548235;
+    width: 250px;
+
 }
 
 .optionsselect:hover {
     color: #2E471D;
+    width: 250px;
+
 }
 
 .appointment {
@@ -80,7 +84,7 @@
 }
 
 ::placeholder {
-    color: white;
+    color: #a9a9a9;
 }
 
 .select {
@@ -122,6 +126,7 @@
     width: 80%;
 
 }
+
 
 }
 

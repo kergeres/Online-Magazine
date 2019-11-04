@@ -1,28 +1,38 @@
-.terrariums
-{
+.terrariums {
     width: 80%;
 
 
 }
-.terrarium_content
-{
+
+.terrarium_content {
 
     display: flex;
     justify-content: flex-end;
+}
 
 
+.small_picture {
+    height: 200px;
 
 
 }
+
+.pic_title
+{
+    margin-bottom: 20px;
+}
+
+
 
 /*For Desktop*/
 @media only screen and (min-width:680px) {
 
+    .small_picture {
+    margin-top: 3px;
+    float: right;
+}
 
 }
 
 /*For mobile*/
-@media only screen and (max-width:680px) {
-
-
-}
+@media only screen and (max-width:680px) {}
