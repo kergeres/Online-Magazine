@@ -1,0 +1,5 @@
+User-agent: Googlebot
+Disallow:/nogooglebot/
+
+Sitemap: https://kergeres.github.io/Online-Magazine/
+

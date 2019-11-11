@@ -17,8 +17,7 @@
 
 }
 
-.pic_title
-{
+.pic_title {
     margin-bottom: 20px;
 }
 
@@ -28,11 +27,9 @@
 @media only screen and (min-width:680px) {
 
     .small_picture {
-    margin-top: 3px;
-    float: right;
-}
+        margin-top: 3px;
+        float: right;
+    }
 
 }
 
-/*For mobile*/
-@media only screen and (max-width:680px) {}
